@@ -1,13 +1,9 @@
-#Diagrama de caso de uso
+# Diagrama de caso de uso
 
-```plantuml
-@startuml
-lfet to right direction
+## Ator
+- Usuario
 
-actor Usuario
+## Caso de Uso
+- Visualizar Cadapio
+- Selecionar Produtos
 
-Usuario-->(Visualiza Cardápio)
-Usuario-->(Seleciona Produto)
-
-
-@enduml
