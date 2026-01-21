@@ -1,4 +1,4 @@
-1. Visao Geral
+# 1. Visao Geral
 
 O sistema consiste em um fluxo de vendas automatizado
 via chat, orquestrado peço n8n, integrado a um banco de
@@ -8,14 +8,15 @@ produtos, informa a forma de pagamento de pagamento e
 endereço, e recebe a confirmação do pedido. O pagamento
 é apenas simulado, sem integração real.
 
-2. Objetivo
+# 2. Objetivo
 
 Automatizar o processo de registro de pedidos,
 desde a escolha de produtos até a confirmação final,
 armazenando todas as Infromações no  banco de dados
 para controle e historico.
 
-3. Escopo
+# 3. Escopo
 
 - Exibição do cardapio/Produtos via chat
+
 - Seleção de produtos e quantidades
