@@ -3,7 +3,11 @@
 ## Ator
 - Usuario
 
-## Caso de Uso
+## Casos de Uso
 - Visualizar Cadapio
 - Selecionar Produtos
+- Informar Quantidade
+- Informar Endereço e Escolher Forma de Pagamento
+- Confirmar Pedido
+
 
