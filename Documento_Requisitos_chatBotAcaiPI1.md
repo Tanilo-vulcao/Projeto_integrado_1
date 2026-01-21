@@ -20,3 +20,7 @@ para controle e historico.
 - Exibição do cardapio/Produtos via chat
 
 - Seleção de produtos e quantidades
+
+|coluna |coluna |coluna |
+|-------|-------|-------|
+|       |       |       |
