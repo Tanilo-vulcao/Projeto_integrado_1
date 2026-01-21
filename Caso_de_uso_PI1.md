@@ -1,0 +1,13 @@
+#Diagrama de caso de uso
+
+```plantuml
+@startuml
+lfet to right direction
+
+actor Usuario
+
+Usuario-->(Visualiza Cardápio)
+Usuario-->(Seleciona Produto)
+
+
+@enduml
