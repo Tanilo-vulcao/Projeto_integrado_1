@@ -21,9 +21,10 @@ para controle e historico.
 
 - Seleção de produtos e quantidades
 
-|I D|Nome|Descrição|
+|Id|Nome|Descrição|
 |-------|-------|-------|
 |RF01|eeeee|eeeeeee|
+
 
 
 
