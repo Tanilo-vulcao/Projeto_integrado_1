@@ -40,7 +40,7 @@ para controle e historico.
 |RF04|Solicitar quantidade|O Chatbot solicita ao usuario via formulario, e apartir dele o usuario digita a quantidade|
 |RF05|Calculo automatico|O Chatbot deve calcular o valor do pedido de acordo com os produtos escolhidos e seus valore, e mostra ao usuario|
 |RF06|Solicitar endereço e pagamento|O Chatbot deve solicitar o endereço e pagamento via formuario ao usuario, que, informara os dados(Bairro, Rua, Numero e referencia) e a forma de pagamento(Pix, Cartão)
-|RF07|Confirmar pedido|O Chatbot deve apresentar o resumo do pedido e solicitar a confirmação, que atraves de mensagem o usuario confirmar ou não|
+|RF07|Confirmar pedido|O Chatbot deve apresentar o resumo do pedido e solicitar a confirmação, que atraves de mensagem o usuario confirma ou não|
 |RF08|Confirmar pagamento(Simulação)|O Chatbot envia uma mensagem de simulaçao onde o usuario confirma ou não o pagamento|
 |RF09|Registra pedido|O Chatbot deve registra os pedidos pagos no banco de dados e suas informções|
 |RF10|Enviar confirmação|O Chatbot deve enviar uma mensagem confirmando o pedido feito ao dono do estabelecimanto para a entrega|
