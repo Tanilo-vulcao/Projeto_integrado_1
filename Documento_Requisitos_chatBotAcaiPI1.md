@@ -52,6 +52,7 @@ para controle e historico.
 |RNF01|Integração ao postgresSQL|O Chatbot deve utilizar o banco de dados para armazenar os dados|
 |RNF02|Integração ao n8n|O chatbot deve utilizar o n8n como gerenciador do fluxo|
 |RNF03|Utilização do Docker|O n8n e postgresSQL, devem rodar em um container do docker|
-|RNF04|Gerenciamento de formuarios|O fluxo deve gerenciar formularios para que so sejam aceitos como resposta, formualrios recem solicitados impedido a leitura daqueles que ja não pertence ao novo fluxo|
+|RNF04|Gerenciamento de formuarios|O Chatbot deve gerenciar formularios para que so sejam aceitos como resposta, formualrios recem solicitados impedido a leitura daqueles que ja não pertence ao novo fluxo|
+
 
 
