@@ -24,25 +24,26 @@ para controle e historico.
 - Seleção de produtos via formulario
 - Seleção de quantidades via formulario
 - Calculo automatico do valor do pedido
-- Informar endereço via formualrio
-- Escolher forma de pagamento (Pix, Cartão) via formulario
-- confirmar pedido
-- confirmar pagamento(Simulação)
+- Informar endereço/Escolher forma de pagamento (Pix, Cartão), via formulario
+- confirmacao do pedido
+- confirmação do pagamento(Simulação)
 - Registro do pedido e itens no PostgreSQL
 - Envio de mensagem de confirmação
 
-
 # 4. Requisitos Funcionais
+
 |Id|Nome|Descrição|
 |-------|-------|-------|
 |RF01|Responder mensagens|O Chatbot deve reponder as entradas do usuario via mensagem|
-|RF2|Exibição do cardapio|O Chatbot deve exibir os produtos lidos no banco dados e apresentar ao usuario|
-|RF3|Selecionar produto|O chatbot deve solicitar a escolha do usuario via formulario, e apartir dele o usuario faz suas escolhas|
-|RF4|Selcionar quantidade|O Chatbot solicita ao usuario via formulario, e apartir dele o usuario digita a quantidade|
-
-
-
-
+|RF02|Exibir cardapio|O Chatbot deve exibir os produtos lidos no banco dados e apresentar ao usuario|
+|RF03|Solicitar produto|O Chatbot deve solicitar a escolha do usuario via formulario, e apartir dele o usuario faz suas escolhas|
+|RF04|Solicitar quantidade|O Chatbot solicita ao usuario via formulario, e apartir dele o usuario digita a quantidade|
+|RF05|Calculo automatico|O Chatbot deve calcular o valor do pedido de acordo com os produtos escolhidos e seus valore, e mostra ao usuario|
+|RF06|Solicitar endereço e pagamento|O Chatbot deve solicitar o endereço e pagamento via formuario ao usuario, que, informara os dados(Bairro, Rua, Numero e referencia) e a forma de pagamento(Pix, Cartão)
+|RF07|Confirmar pedido|O Chatbot deve apresentar o resumo do pedido e solicitar a confirmação, que atraves de mensagem o usuario confirmar ou não|
+|RF08|Confirmar pagamento(Simulação)|O Chatbot envia uma mensagem de simulaçao onde o usuario confirma ou não o pagamento|
+|RF09|Registra pedido|O Chatbot deve registra os pedidos pagos no banco de dados e suas informções|
+|RF10|Enviar confirmação|O Chatbot deve enviar uma mensagem confirmando o pedido feito ao dono do estabelecimanto para a entrega|
 
 
 
