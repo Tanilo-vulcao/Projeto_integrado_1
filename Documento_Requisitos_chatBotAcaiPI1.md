@@ -32,7 +32,7 @@ para controle e historico.
 
 # 4. Requisitos Funcionais
 
-|Id|Nome|Descrição|
+|ID|Nome|Descrição|
 |-------|-------|-------|
 |RF01|Responder mensagens|O Chatbot deve reponder as entradas do usuario via mensagem|
 |RF02|Exibir cardapio|O Chatbot deve exibir os produtos lidos no banco dados e apresentar ao usuario|
@@ -44,6 +44,7 @@ para controle e historico.
 |RF08|Confirmar pagamento(Simulação)|O Chatbot envia uma mensagem de simulaçao onde o usuario confirma ou não o pagamento|
 |RF09|Registra pedido|O Chatbot deve registra os pedidos pagos no banco de dados e suas informções|
 |RF10|Enviar confirmação|O Chatbot deve enviar uma mensagem confirmando o pedido feito ao dono do estabelecimanto para a entrega|
+
 
 
 
