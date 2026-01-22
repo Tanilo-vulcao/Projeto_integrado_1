@@ -1,4 +1,4 @@
-dug# 1. Visao Geral
+# 1. Visao Geral
 
 O sistema consiste em um fluxo de vendas automatizado
 via chat, orquestrado peço n8n, integrado a um banco de
@@ -24,5 +24,6 @@ para controle e historico.
 |ID |Nome |Descrição |
 |-------|-------|-------|
 | RF01 | eeeee | eeeeeee |
+
 
 
