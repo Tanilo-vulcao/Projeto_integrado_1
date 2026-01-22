@@ -1,3 +1,5 @@
+# Nome do projeto: Chatbot para Venda e Pedidos de Açaí
+
 # 1. Visão Geral
 
 O sistema consiste em um fluxo de vendas automatizado via chat, orquestrado pelo n8n, integrado a um banco de dados PostgreSQL. O usuário interage por mensagens de texto e preenchimento de formulário via Telegram, seleciona  
