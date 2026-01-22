@@ -18,6 +18,7 @@ para controle e historico.
 # 3. Escopo
 
 ## 3.1 Funcionalidades Incluidas
+
 - Responder a entradas via chat
 - Exibição do cardapio/Produtos via chat
 - Seleção de produtos via formulario
@@ -38,6 +39,7 @@ para controle e historico.
 |RF2|Exibição do cardapio|O Chatbot deve exibir os produtos lidos no banco dados e apresentar ao usuario|
 |RF3|Selecionar produto|O chatbot deve solicitar a escolha do usuario via formulario, e apartir dele o usuario faz suas escolhas|
 |RF4|Selcionar quantidade|O Chatbot solicita ao usuario via formulario, e apartir dele o usuario digita a quantidade|
+
 
 
 
