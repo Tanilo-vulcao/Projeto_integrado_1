@@ -30,12 +30,15 @@ para controle e historico.
 - Registro do pedido e itens no PostgreSQL
 - Envio de mensagem de confirmação
 
+
+# 4. Requisitos Funcionais
 |Id|Nome|Descrição|
 |-------|-------|-------|
 |RF01|Responder mensagens|O Chatbot deve reponder as entradas do usuario via mensagem|
 |RF2|Exibição do cardapio|O Chatbot deve exibir os produtos lidos no banco dados e apresentar ao usuario|
 |RF3|Selecionar produto|O chatbot deve solicitar a escolha do usuario via formulario, e apartir dele o usuario faz suas escolhas|
 |RF4|Selcionar quantidade|O Chatbot solicita ao usuario via formulario, e apartir dele o usuario digita a quantidade|
+
 
 
 
