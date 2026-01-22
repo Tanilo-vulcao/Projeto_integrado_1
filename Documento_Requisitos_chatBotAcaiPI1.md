@@ -23,7 +23,7 @@ para controle e historico.
 
 |Id|Nome|Descrição|
 |-------|-------|-------|
-|RF01|Responder mensagem do usuário|O sistem deve reponder as entradas do usuario via mensagem|
+|RF01|Responder mensagens do usuário|O sistema deve reponder as entradas do usuario via mensagem|
 
 
 
