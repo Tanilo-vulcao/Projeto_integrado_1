@@ -1,12 +1,8 @@
 # 1. Visão Geral
 
-O sistema consiste em um fluxo de vendas automatizado  
-via chat, orquestrado pelo n8n, integrado a um banco de  
-dados PostgreSQL. O usuário interage por mensagens de  
-texto e preenchimento de formulário via Telegram, seleciona  
+O sistema consiste em um fluxo de vendas automatizado via chat, orquestrado pelo n8n, integrado a um banco de dados PostgreSQL. O usuário interage por mensagens de texto e preenchimento de formulário via Telegram, seleciona  
 produtos, informa a forma de pagamento e  
-endereço, e recebe a confirmação do pedido. O pagamento  
-é apenas simulado, sem integração real.
+endereço, e recebe a confirmação do pedido. O pagamento é apenas simulado, sem integração real.
 
 # 2. Objetivo
 
