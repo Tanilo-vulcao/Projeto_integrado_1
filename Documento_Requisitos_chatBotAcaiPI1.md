@@ -58,3 +58,7 @@ para controle e histórico.
 | RNF02 | Integrado ao n8n        | O chatbot deve utilizar o n8n como gerenciador do fluxo |
 | RNF03 | Utilizar o Docker     | O n8n e o PostgreSQL devem rodar em contêineres Docker |
 | RNF04 | Gerenciar formulários | O chatbot deve gerenciar formulários para que somente sejam aceitos como resposta formulários recém solicitados, impedindo a leitura daqueles que já não pertencem ao novo fluxo |
+
+# 6. Modelagem do Sistema 
+
+## 6.1 Diagrama de Caso de Uso
