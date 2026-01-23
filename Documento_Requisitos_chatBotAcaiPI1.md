@@ -32,12 +32,7 @@ para controle e histórico.
 - Registro do pedido e itens no PostgreSQL  
 - Envio de mensagem de confirmação  
 
-# 4. Documentação do Projeto
-
-
 # 5. Requisitos
-
-
 
 ## 5.1 Requisitos Funcionais
 
@@ -53,7 +48,6 @@ para controle e histórico.
 | RF08 | Confirmar pagamento (simulação) | O chatbot envia uma mensagem de simulação onde o usuário confirma ou não o pagamento |
 | RF09 | Registrar pedido         | O chatbot deve registrar os pedidos pagos no banco de dados e suas informações |
 | RF10 | Enviar confirmação       | O chatbot deve enviar uma mensagem confirmando o pedido feito ao dono do estabelecimento para a entrega |
-
 
 
 ## 5.2 Requisitos Não Funcionais
