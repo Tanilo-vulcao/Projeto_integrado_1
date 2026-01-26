@@ -45,7 +45,7 @@ para controle e histórico.
 | RF05 | Cálculo automático       | O chatbot deve calcular o valor do pedido de acordo com os produtos escolhidos e seus valores, e mostrar ao usuário |
 | RF06 | Solicitar endereço e pagamento | O chatbot deve solicitar o endereço e pagamento via formulário ao usuário, que informará os dados (bairro, rua, número e referência (opcional) ) e a forma de pagamento (Pix, Cartão) |
 | RF07 | Confirmar pedido         | O chatbot deve apresentar o resumo do pedido e solicitar a confirmação, que, através de mensagem, o usuário confirma ou não |
-| RF08 | Confirmar pagamento (simulação) | O chatbot envia uma mensagem de simulação onde o usuário confirma ou não o pagamento (simulando um caso real que o usuário pode paga ou não um pedido e só assim ele realmente e confirmado ) |
+| RF08 | Confirmar pagamento (simulação) | O chatbot envia uma mensagem de simulação onde o usuário confirma ou não o pagamento (simulando um caso real que o usuário pode paga ou não um pedido e só assim ele realmente e confirmado ). E a espera para ser efetuado o pagamento deve ser de 5 minutos |
 | RF09 | Registrar pedido         | O chatbot deve registrar os pedidos pagos no banco de dados e suas informações |
 | RF10 | Enviar confirmação       | O chatbot deve enviar uma mensagem confirmando o pedido feito ao dono do estabelecimento para a entrega |
 
