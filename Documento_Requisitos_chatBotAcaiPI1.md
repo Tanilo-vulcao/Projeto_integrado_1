@@ -38,7 +38,7 @@ para controle e histórico.
 
 | ID   | Nome                     | Descrição |
 |------|--------------------------|-----------|
-| RF01 | Responder mensagens      | O chatbot deve responder às entradas do usuário via mensagem |
+| RF01 | Responder mensagens      | O chatbot deve responder às entradas do usuário via mensagem e formulários |
 | RF02 | Exibir cardápio          | O chatbot deve exibir os produtos lidos no banco de dados e apresentá-los ao usuário |
 | RF03 | Solicitar produto        | O chatbot deve solicitar a escolha do usuário via formulário, e a partir dele o usuário faz suas escolhas |
 | RF04 | Solicitar quantidade     | O chatbot solicita ao usuário via formulário, e a partir dele o usuário digita a quantidade |
