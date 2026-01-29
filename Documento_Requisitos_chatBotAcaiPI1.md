@@ -63,3 +63,6 @@ para controle e histórico.
 # 6. Modelagem do Sistema 
 
 ## 6.1 Diagrama de Caso de Uso
+
+![DiagramaDeCasoDeUso_AcaiBot_PI1](https://github.com/user-attachments/assets/b86a98e6-9b9c-4f27-95be-f06455d566c7)
+
