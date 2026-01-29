@@ -38,16 +38,17 @@ para controle e histórico.
 
 | ID   | Nome                     | Descrição |
 |------|--------------------------|-----------|
-| RF01 | Responder mensagens      | O chatbot deve responder às entradas do usuário via mensagem e formulários |
-| RF02 | Exibir cardápio          | O chatbot deve exibir os produtos lidos no banco de dados e apresentá-los ao usuário |
-| RF03 | Solicitar produto        | O chatbot deve solicitar a escolha do usuário via formulário, e a partir dele o usuário faz suas escolhas |
-| RF04 | Solicitar quantidade     | O chatbot solicita ao usuário via formulário, e a partir dele o usuário digita a quantidade |
-| RF05 | Cálculo automático       | O chatbot deve calcular o valor do pedido de acordo com os produtos escolhidos e seus valores, e mostrar ao usuário. E se o valor for menor ou igual a zero (ou seja a quantida digitada foi zero para todos os produtos escolhidos), o pedido é automaticamente cancelado|
-| RF06 | Solicitar endereço e pagamento | O chatbot deve solicitar o endereço e pagamento via formulário ao usuário, que informará os dados (bairro, rua, número e referência (opcional) ) e a forma de pagamento (Pix, Cartão) |
-| RF07 | Confirmar pedido/Cancelar Pedido     | O chatbot deve apresentar o resumo do pedido e solicitar a confirmação, que, através de mensagem, o usuário confirma ou não |
-| RF08 | Confirmar pagamento (simulação) | O chatbot envia uma mensagem de simulação onde o usuário confirma ou não o pagamento (simulando um caso real que o usuário pode paga ou não um pedido e só assim ele realmente e confirmado ). E a espera para ser efetuado o pagamento deve ser de 5 minutos |
-| RF09 | Registrar pedido         | O chatbot deve registrar os pedidos pagos no banco de dados e suas informações |
-| RF10 | Enviar confirmação       | O chatbot deve enviar uma mensagem confirmando o pedido feito ao dono do estabelecimento para a entrega |
+| RF01 | Responder mensagens      | O chatbot deve responder às entradas do usuário via mensagem e formulários.|
+| RF02 | Exibir cardápio          | O chatbot deve exibir os produtos lidos no banco de dados e apresentá-los ao usuário.|
+| RF03 | Solicitar produto        | O chatbot deve solicitar a escolha do usuário via formulário, e a partir dele o usuário faz suas escolhas.|
+| RF04 | Solicitar quantidade     | O chatbot solicita ao usuário via formulário, e a partir dele o usuário digita a quantidade.|
+| RF05 | Cálculo automático       | O chatbot deve calcular o valor do pedido de acordo com os produtos escolhidos e seus valores, e mostrar ao usuário. E se o valor for menor ou igual a zero (ou seja a quantida digitada foi zero para todos os produtos escolhidos), o pedido é automaticamente cancelado.|
+| RF06 | Solicitar endereço e pagamento | O chatbot deve solicitar o endereço e pagamento via formulário ao usuário, que informará os dados (bairro, rua, número e referência (opcional) ) e a forma de pagamento (Pix, Cartão).|
+| RF07 | Confirmar pedido/Cancelar Pedido| O chatbot deve apresentar o resumo do pedido e solicitar a confirmação, que, através de mensagem, o usuário confirma ou não.|
+| RF08 | Confirmar pagamento (simulação) | O chatbot envia uma mensagem de simulação onde o usuário confirma ou não o pagamento (simulando um caso real que o usuário pode paga ou não um pedido e só assim ele realmente e confirmado ). E a espera para ser efetuado o pagamento deve ser de 5 minutos.|
+| RF09 | Registrar pedido         | O chatbot deve registrar os pedidos pagos no banco de dados e suas informações.|
+| RF10 | Enviar confirmação       | O chatbot deve enviar uma mensagem confirmando o pedido feito ao dono do estabelecimento para a entrega.|
+|RF11|Fazer o Controle de Sessão e Formulários|O sistema deve controlar a sessão do usuário, como verificar se já existe uma sessão ativa, identificar a etapa atual do fluxo (menu, pagamento), garantindo que apenas formulários recentemente solicitados sejam aceitos, desconsiderando respostas de formulários antigos. A sessão deve ser encerrada ao final do pedido, ou após tempo limite de inatividade.|
 
 
 ## 5.2 Requisitos Não Funcionais
@@ -57,8 +58,7 @@ para controle e histórico.
 | RNF01 | Integrar ao PostgreSQL | O chatbot deve utilizar o banco de dados para armazenar os dados |
 | RNF02 | Integrar ao n8n        | O chatbot deve utilizar o n8n como gerenciador do fluxo |
 | RNF03 | Utilizar o Docker     | O n8n e o PostgreSQL devem rodar em contêineres Docker |
-| RNF04 | Gerenciar formulários | O chatbot deve gerenciar formulários para que somente sejam aceitos como resposta formulários recém solicitados, impedindo a leitura daqueles que já não pertencem ao novo fluxo |
-|RNF05|Ser Manutenivel|O sistema........|
+|RNF04|Ser Manutenivel|O sistema........|
 
 # 6. Modelagem do Sistema 
 
