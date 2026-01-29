@@ -64,5 +64,5 @@ para controle e histórico.
 
 ## 6.1 Diagrama de Caso de Uso
 
-![DiagramaDeCasoDeUso_AcaiBot_PI1](https://github.com/user-attachments/assets/b86a98e6-9b9c-4f27-95be-f06455d566c7)
+![DiagramaDeCasoDeUso_AcaiBot_PI1](https://github.com/user-attachments/assets/d3ee4526-c9a4-4121-85ae-e2d11ada1424)
 
