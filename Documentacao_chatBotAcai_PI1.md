@@ -70,5 +70,4 @@ para controle e histórico.
 
 ## 6.2 Diagrama Entidade Relacionamento (DER)
 
-<img width="828" height="549" alt="DIagrama_entidade_relacionamento_AcaiBot_PI1" src="https://github.com/user-attachments/assets/97aac6bf-7356-4fe1-8b21-11cb399ee897" />
-
+<img width="757" height="607" alt="DIagrama_entidade_relacionamento_AcaiBot_PI1" src="https://github.com/user-attachments/assets/b04111bb-4fa6-443a-bc66-7788a5e9e47d" />
