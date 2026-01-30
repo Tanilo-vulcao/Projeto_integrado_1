@@ -2,7 +2,7 @@
 # Documentação do Projeto 
 
 ## Nome do projeto: Chatbot para Venda e Pedidos de Açaí
-
+### Respomsaveis pelo projeto: Tanilo vulção
 
 # 1. Visão Geral
 
