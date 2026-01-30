@@ -48,7 +48,7 @@ para controle e histórico.
 | RF08 | Confirmar pagamento (simulação) | O chatbot envia uma mensagem de simulação onde o usuário confirma ou não o pagamento (simulando um caso real que o usuário pode paga ou não um pedido e só assim ele realmente e confirmado ). E a espera para ser efetuado o pagamento deve ser de 5 minutos.|
 | RF09 | Registrar pedido         | O chatbot deve registrar os pedidos pagos no banco de dados e suas informações.|
 | RF10 | Enviar confirmação       | O chatbot deve enviar uma mensagem confirmando o pedido feito ao dono do estabelecimento para a entrega.|
-|RF11|Fazer o Controle de Sessão e Formulários|O sistema deve controlar a sessão do usuário como, verificar se já existe uma sessão ativa, identificar a etapa atual do fluxo (menu, pagamento), garantindo que apenas formulários recentemente solicitados sejam aceitos, desconsiderando respostas de formulários antigos. A sessão deve ser encerrada ao final do pedido, ou após tempo limite de inatividade.|
+|RF11|Fazer o Controle de Sessão e Formulários|O sistema deve controlar a sessão do usuário como, verificar se já existe uma sessão ativa, identificar a etapa atual do fluxo (menu, pagamento), garantindo que apenas formulários recentemente solicitados sejam aceitos, desconsiderando respostas de formulários antigos. A sessão deve ser encerrada ao final do pedido, também se o total for menor ou igual a zero ou seja o usuário cancelou as escolhas, digitando zero para a qauntidade dos produtos por ele escolhido ou após tempo limite de inatividade.|
 
 
 ## 5.2 Requisitos Não Funcionais
