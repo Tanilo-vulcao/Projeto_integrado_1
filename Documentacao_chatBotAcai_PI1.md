@@ -68,3 +68,7 @@ para controle e histórico.
 
 ![DiagramaDeCasoDeUso_AcaiBot_PI1](https://github.com/user-attachments/assets/d3ee4526-c9a4-4121-85ae-e2d11ada1424)
 
+## 6.2 Diagrama Entidade Relacionamento (DER)
+
+<img width="828" height="549" alt="DIagrama_entidade_relacionamento_AcaiBot_PI1" src="https://github.com/user-attachments/assets/97aac6bf-7356-4fe1-8b21-11cb399ee897" />
+
