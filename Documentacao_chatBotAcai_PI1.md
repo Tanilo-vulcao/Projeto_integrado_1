@@ -8,7 +8,9 @@
 
 O sistema consiste em um fluxo de vendas automatizado via chat, orquestrado pelo n8n, integrado a um banco de dados PostgreSQL. O usuário interage por mensagens de texto e preenchimento de formulário via Telegram, seleciona  
 produtos, informa a forma de pagamento e  
-endereço, e recebe a confirmação do pedido. O pagamento é apenas simulado, sem integração real.
+endereço, e recebe a confirmação do pedido. O pagamento é apenas simulado, sem integração real. 
+### Identificação do usuário:
+O sistema não possui módulo de autenticação ou cadastro de usuários. O usuário é identificado exclusivamente pelo identificador da plataforma de chat (chat_id), sendo este utilizado para controle de sessão, pedidos e fluxo de interação.
 
 # 2. Objetivo
 
