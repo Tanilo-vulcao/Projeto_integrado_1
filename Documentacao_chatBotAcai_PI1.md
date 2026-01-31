@@ -38,7 +38,7 @@ armazenando todas as informações no banco de dados para controle e histórico.
 
 # 5. Requisitos
 
-## 5.1 Requisitos Funcionais
+### 5.1 Requisitos Funcionais
 
 | ID   | Nome                     | Descrição |
 |------|--------------------------|-----------|
