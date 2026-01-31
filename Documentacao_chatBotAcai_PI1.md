@@ -18,10 +18,8 @@ O sistema não possui módulo de autenticação ou cadastro de usuários. O usu�
 
 # 2. Objetivo
 
-Automatizar o processo de registro de pedidos,  
-desde a escolha de produtos até a confirmação final,  
-armazenando todas as informações no banco de dados  
-para controle e histórico.
+Automatizar o processo de registro de pedidos, desde a escolha de produtos até a confirmação final,  
+armazenando todas as informações no banco de dados para controle e histórico.
 
 # 3. Escopo
 
