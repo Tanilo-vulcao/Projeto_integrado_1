@@ -23,7 +23,7 @@ armazenando todas as informações no banco de dados para controle e histórico.
 
 # 3. Escopo
 
-## 3.1 Funcionalidades Incluídas
+### 3.1 Funcionalidades Incluídas
 
 - Responder a entradas via chat  
 - Exibição do cardápio/produtos via chat  
