@@ -65,12 +65,14 @@ armazenando todas as informações no banco de dados para controle e histórico.
 | RNF03 | Utilizar o Docker     | O n8n e o PostgreSQL devem rodar em contêineres Docker |
 |RNF04|Ser Manutenivel|O sistema........|
 
+#
+
 # 6. Modelagem do Sistema 
 
-## 6.1 Diagrama de Caso de Uso
+### 6.1 Diagrama de Caso de Uso
 
 ![DiagramaDeCasoDeUso_AcaiBot_PI1](https://github.com/user-attachments/assets/d3ee4526-c9a4-4121-85ae-e2d11ada1424)
 
-## 6.2 Diagrama Entidade Relacionamento (DER)
+### 6.2 Diagrama Entidade Relacionamento (DER)
 
 <img width="757" height="607" alt="DIagrama_entidade_relacionamento_AcaiBot_PI1" src="https://github.com/user-attachments/assets/b04111bb-4fa6-443a-bc66-7788a5e9e47d" />
