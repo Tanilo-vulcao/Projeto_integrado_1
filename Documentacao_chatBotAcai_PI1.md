@@ -71,7 +71,6 @@ armazenando todas as informações no banco de dados para controle e histórico.
 
 ### 6.1 Diagrama de Caso de Uso
 
-#
 
 ![DiagramaDeCasoDeUso_AcaiBot_PI1](https://github.com/user-attachments/assets/d3ee4526-c9a4-4121-85ae-e2d11ada1424)
 
