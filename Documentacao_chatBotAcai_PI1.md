@@ -1,9 +1,7 @@
 
 # Documentação do Projeto
-##
 
 ## Nome do projeto: Chatbot para Venda e Pedidos de Açaí
-##
 
 ### Responsaveis pelo projeto: Tanilo vulcão 
 ##
