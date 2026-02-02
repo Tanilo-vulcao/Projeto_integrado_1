@@ -81,23 +81,44 @@ armazenando todas as informações no banco de dados para controle e histórico.
 <img width="757" height="607" alt="DIagrama_entidade_relacionamento_AcaiBot_PI1" src="https://github.com/user-attachments/assets/b04111bb-4fa6-443a-bc66-7788a5e9e47d" />
 
 ### 6.3 Cardinalidade
-usecaseDiagram
-title Chatbot Açaí
+erDiagram
 
-actor Cliente
-actor "Dono do Estabelecimento" as Dono
+    PRODUTO {
+        INT id PK
+        VARCHAR nome
+        INT preco
+    }
 
-Cliente --> (Iniciar conversa)
-Cliente --> (Realizar Pedido)
+    CONTROLE_SESSAO_FORMULARIO {
+        INT chat_id PK
+        VARCHAR etapa
+        INT numero_etapa
+        DATETIME atualizado_em
+        INT primeiro_erro_zero
+        BIGINT codigo_formulario
+        INT codigo_pagamento
+    }
 
-(Realizar Pedido) ..> (Exibir Cardápio) : <<include>>
-(Realizar Pedido) ..> (Solicitar Produtos) : <<include>>
-(Realizar Pedido) ..> (Solicitar Quantidade) : <<include>>
-(Realizar Pedido) ..> (Calcular Valor) : <<include>>
-(Realizar Pedido) ..> (Solicitar Endereço e pagamento) : <<include>>
-(Realizar Pedido) ..> (Confirmar Pedido) : <<include>>
-(Realizar Pedido) ..> (Confirmar Pagamento) : <<include>>
-(Realizar Pedido) ..> (Registrar Pedido) : <<include>>
-(Realizar Pedido) ..> (Enviar Confirmação) : <<include>>
+    PEDIDO {
+        INT id PK
+        INT chat_id FK
+        INT total
+        VARCHAR logradouro_rua
+        VARCHAR logradouro_bairro
+        VARCHAR logradouro_numero
+        VARCHAR logradouro_referencia
+        VARCHAR forma_pagamento
+        VARCHAR status
+    }
 
-Dono --> (Enviar Confirmação)
+    PRODUTO_HAS_PEDIDO {
+        INT id PK
+        INT pedido_id FK
+        INT produto_id FK
+        INT quantidade
+        INT sub_total
+    }
+
+    CONTROLE_SESSAO_FORMULARIO ||--|| PEDIDO : "origina"
+    PEDIDO ||--o{ PRODUTO_HAS_PEDIDO : "possui"
+    PRODUTO ||--o{ PRODUTO_HAS_PEDIDO : "compõe"
