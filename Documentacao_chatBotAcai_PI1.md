@@ -81,3 +81,23 @@ armazenando todas as informações no banco de dados para controle e histórico.
 <img width="757" height="607" alt="DIagrama_entidade_relacionamento_AcaiBot_PI1" src="https://github.com/user-attachments/assets/b04111bb-4fa6-443a-bc66-7788a5e9e47d" />
 
 ### 6.3 Cardinalidade
+usecaseDiagram
+title Chatbot Açaí
+
+actor Cliente
+actor "Dono do Estabelecimento" as Dono
+
+Cliente --> (Iniciar conversa)
+Cliente --> (Realizar Pedido)
+
+(Realizar Pedido) ..> (Exibir Cardápio) : <<include>>
+(Realizar Pedido) ..> (Solicitar Produtos) : <<include>>
+(Realizar Pedido) ..> (Solicitar Quantidade) : <<include>>
+(Realizar Pedido) ..> (Calcular Valor) : <<include>>
+(Realizar Pedido) ..> (Solicitar Endereço e pagamento) : <<include>>
+(Realizar Pedido) ..> (Confirmar Pedido) : <<include>>
+(Realizar Pedido) ..> (Confirmar Pagamento) : <<include>>
+(Realizar Pedido) ..> (Registrar Pedido) : <<include>>
+(Realizar Pedido) ..> (Enviar Confirmação) : <<include>>
+
+Dono --> (Enviar Confirmação)
