@@ -33,6 +33,11 @@ armazenando todas as informações no banco de dados para controle e histórico.
 - Registro do pedido e itens no PostgreSQL  
 - Envio de mensagem de confirmação  
 
+### 3.2 Funcionalidades Excluídas
+
+- Integração real com gateways de pagamento
+- Confirmação bancária de pagamentos
+
 # 5. Requisitos
 
 ### 5.1 Requisitos Funcionais
