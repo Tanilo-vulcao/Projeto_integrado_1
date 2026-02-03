@@ -80,4 +80,5 @@ armazenando todas as informações no banco de dados para controle e histórico.
 
 <img width="757" height="607" alt="DIagrama_entidade_relacionamento_AcaiBot_PI1" src="https://github.com/user-attachments/assets/b04111bb-4fa6-443a-bc66-7788a5e9e47d" />
 
-### 6.3 Cardinalidade
+##Autores
+Tanilo, Elyzane
