@@ -1,7 +1,7 @@
 
-# Documentação do Projeto
+# Nome do projeto: Chatbot para Venda e Pedidos de Açaí
 
-## Nome do projeto: Chatbot para Venda e Pedidos de Açaí
+## Documentação do Projeto
 
 # 1. Visão Geral
 
