@@ -62,10 +62,11 @@ armazenando todas as informações no banco de dados para controle e histórico.
 
 | ID   | Nome                     | Descrição |
 |------|--------------------------|-----------|
-| RNF01 | Integrar ao PostgreSQL | O chatbot deve utilizar o banco de dados para armazenar os dados |
-| RNF02 | Integrar ao n8n        | O chatbot deve utilizar o n8n como gerenciador do fluxo |
-| RNF03 | Utilizar o Docker     | O n8n e o PostgreSQL devem rodar em contêineres Docker |
-|RNF04|Ser Manutenivel|O sistema........|
+| RNF01 | Integrar ao PostgreSQL | O chatbot deve utilizar o banco de dados para armazenar os dados. |
+| RNF02 | Integrar ao n8n        | O chatbot deve utilizar o n8n como gerenciador do fluxo. |
+| RNF03 | Utilizar o Docker     | O n8n e o PostgreSQL devem rodar em contêineres Docker. |
+|RNF04 | Manutenibilidade | O sistema deve ser estruturado de forma a permitir manutenção facilitada dos fluxos no n8n e do banco de dados PostgreSQL, utilizando contêineres Docker para isolar os serviços e simplificar atualizações.|
+
 
 #
 
