@@ -1,9 +1,9 @@
 # Projeto Integrado I
 ## Nome do projeto: Chatbot para Venda e Pedidos de Açaí
 
-# Documentação do Projeto
+## Documentação do Projeto
 
-# 1. Visão Geral
+## 1. Visão Geral
 
 O sistema consiste em um fluxo de vendas automatizado via chat, 
 orquestrado pelo n8n, integrado a um banco de dados PostgreSQL. 
@@ -13,12 +13,12 @@ O pagamento é apenas simulado, sem integração real.
 ### Identificação do usuário:
 O sistema não possui módulo de autenticação ou cadastro de usuários. O usuário é identificado exclusivamente pelo identificador da plataforma de chat (chat_id), sendo este utilizado para controle de sessão, pedidos e fluxo de interação.
 
-# 2. Objetivo
+## 2. Objetivo
 
 Automatizar o processo de registro de pedidos, desde a escolha de produtos até a confirmação final,  
 armazenando todas as informações no banco de dados para controle e histórico.
 
-# 3. Escopo
+## 3. Escopo
 
 ### 3.1 Funcionalidades Incluídas
 
@@ -38,7 +38,7 @@ armazenando todas as informações no banco de dados para controle e histórico.
 - Integração real com gateways de pagamento
 - Confirmação bancária de pagamentos
 
-# 5. Requisitos
+## 5. Requisitos
 
 ### 5.1 Requisitos Funcionais
 
@@ -70,7 +70,7 @@ armazenando todas as informações no banco de dados para controle e histórico.
 
 #
 
-# 6. Modelagem do Sistema 
+## 6. Modelagem do Sistema 
 
 ### 6.1 Diagrama de Caso de Uso
 
