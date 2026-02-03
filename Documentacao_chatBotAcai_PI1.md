@@ -81,8 +81,12 @@ armazenando todas as informações no banco de dados para controle e histórico.
 <img width="757" height="607" alt="DIagrama_entidade_relacionamento_AcaiBot_PI1" src="https://github.com/user-attachments/assets/b04111bb-4fa6-443a-bc66-7788a5e9e47d" />
 
 ### 6.3 Cardinalidade
-erDiagram
 
+erDiagram
+CONTROLE_SESSAO_FORMULARIO ||--|| PEDIDO : passui
+    PEDIDO ||--o{ PRODUTO_HAS_PEDIDO : possui
+    PRODUTO ||--o{ PRODUTO_HAS_PEDIDO : compõe
+    
     PRODUTO {
         INT id PK
         VARCHAR nome
@@ -118,7 +122,3 @@ erDiagram
         INT quantidade
         INT sub_total
     }
-
-    CONTROLE_SESSAO_FORMULARIO ||--|| PEDIDO : "origina"
-    PEDIDO ||--o{ PRODUTO_HAS_PEDIDO : "possui"
-    PRODUTO ||--o{ PRODUTO_HAS_PEDIDO : "compõe"
