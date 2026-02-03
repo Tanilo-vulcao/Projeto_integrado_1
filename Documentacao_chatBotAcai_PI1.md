@@ -3,9 +3,6 @@
 
 ## Nome do projeto: Chatbot para Venda e Pedidos de Açaí
 
-### Responsaveis pelo projeto: Tanilo vulcão 
-##
-
 # 1. Visão Geral
 
 O sistema consiste em um fluxo de vendas automatizado via chat, 
@@ -80,5 +77,5 @@ armazenando todas as informações no banco de dados para controle e histórico.
 
 <img width="757" height="607" alt="DIagrama_entidade_relacionamento_AcaiBot_PI1" src="https://github.com/user-attachments/assets/b04111bb-4fa6-443a-bc66-7788a5e9e47d" />
 
-##Autores
+## Autores
 Tanilo, Elyzane
