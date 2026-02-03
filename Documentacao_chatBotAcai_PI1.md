@@ -85,4 +85,4 @@ armazenando todas as informações no banco de dados para controle e histórico.
 
 ## Autores
 
-Elizany Furtado Martins e Tanilo vulcão de Freitas
+Elizany Furtado Martins e Tanilo Vulcão de Freitas
