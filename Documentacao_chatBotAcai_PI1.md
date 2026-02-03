@@ -82,43 +82,45 @@ armazenando todas as informações no banco de dados para controle e histórico.
 
 ### 6.3 Cardinalidade
 
-erDiagram
-CONTROLE_SESSAO_FORMULARIO ||--|| PEDIDO : passui
-    PEDIDO ||--o{ PRODUTO_HAS_PEDIDO : possui
-    PRODUTO ||--o{ PRODUTO_HAS_PEDIDO : compõe
-    
-    PRODUTO {
-        INT id PK
-        VARCHAR nome
-        INT preco
-    }
 
-    CONTROLE_SESSAO_FORMULARIO {
-        INT chat_id PK
-        VARCHAR etapa
-        INT numero_etapa
-        DATETIME atualizado_em
-        INT primeiro_erro_zero
-        BIGINT codigo_formulario
-        INT codigo_pagamento
-    }
+classDiagram
 
-    PEDIDO {
-        INT id PK
-        INT chat_id FK
-        INT total
-        VARCHAR logradouro_rua
-        VARCHAR logradouro_bairro
-        VARCHAR logradouro_numero
-        VARCHAR logradouro_referencia
-        VARCHAR forma_pagamento
-        VARCHAR status
-    }
+class PRODUTO {
+  +id : INT
+  +nome : VARCHAR
+  +preco : DECIMAL
+}
 
-    PRODUTO_HAS_PEDIDO {
-        INT id PK
-        INT pedido_id FK
-        INT produto_id FK
-        INT quantidade
-        INT sub_total
-    }
+class CONTROLE_SESSAO {
+  +chat_id : INT
+  +etapa : VARCHAR
+  +numero_etapa : INT
+  +atualizado_em : DATETIME
+  +primeiro_erro_zero : INT
+  +codigo_formulario : BIGINT
+  +codigo_pagamento : INT
+}
+
+class PEDIDO {
+  +id : INT
+  +chat_id : INT
+  +total : DECIMAL
+  +logradouro_rua : VARCHAR
+  +logradouro_bairro : VARCHAR
+  +logradouro_numero : VARCHAR
+  +logradouro_referencia : VARCHAR
+  +forma_pagamento : VARCHAR
+  +status : VARCHAR
+}
+
+class ITEM_PEDIDO {
+  +id : INT
+  +pedido_id : INT
+  +produto_id : INT
+  +quantidade : INT
+  +sub_total : DECIMAL
+}
+
+CONTROLE_SESSAO "1" --> "1" PEDIDO : gera
+PEDIDO "1" --> "0..*" ITEM_PEDIDO : contem
+PRODUTO "1" --> "0..*" ITEM_PEDIDO : compoe
