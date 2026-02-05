@@ -52,8 +52,8 @@ armazenando todas as informações no banco de dados para controle e histórico.
 | RF07 | Confirmar pedido/Cancelar Pedido| O chatbot deve apresentar o resumo do pedido e solicitar a confirmação, que, através de mensagem, o usuário confirma ou não.|
 | RF08 | Confirmar pagamento (simulação) | O chatbot envia uma mensagem de simulação onde o usuário confirma ou não o pagamento (simulando um caso real que o usuário pode paga ou não um pedido e só assim ele realmente e confirmado ). E a espera para ser efetuado o pagamento deve ser de 5 minutos.|
 | RF09 | Registrar pedido         | O chatbot deve registrar os pedidos pagos no banco de dados e suas informações.|
-| RF10 | Enviar confirmação       | O chatbot deve enviar uma mensagem confirmando o pedido feito ao dono do estabelecimento para a entrega.|
-|RF11|Fazer o Controle de Sessão, etapas, Formulários e o código do pagamento|O sistema deve controlar a sessão do usuário, verificar se já existe uma sessão para aquele usuário e se esta ativa e identificar a etapa atual do fluxo (sem_sessao_ou_sessao_encerrada (numero_etapa = 0 ) sessao_iniciada_1 (numero_etapa = 1), menu_enviado_2 (numero_etapa = 2), pagar_3 (numero_etapa = 3)) e o código do pagamento pix, cartão (codigo_pagamento (pix = 1, cartão = 2)). Garantir que apenas formulários recentemente solicitados sejam aceitos, desconsiderando respostas de formulários antigos (codigo_formulario), controle de erro como a opção voltar "0", (primeiro_erro_zero). A sessão deve ser encerrada: 1 Ao final do pedido; 2 Se o total for menor ou igual a zero ou seja o usuário cancelou as escolhas, digitando zero na quantidade dos produtos por ele escolhido; 3 Após tempo limite de inatividade.|
+| RF10 | Enviar confirmação       | O chatbot deve enviar uma mensagem de confirmação ao dono do estabelecimento contendo os detalhes do pedido para a entrega.|
+|RF11|Fazer o Controle de Sessão, etapas, Formulários e o código do pagamento|O fluxo deve controlar a sessão do usuário, verificar se já existe uma sessão para aquele usuário e se está ativa e identificar a etapa atual do fluxo, (Sem sesão ou sessão encerrada numero etapa é vazil; sessao_iniciada_1 (numero_etapa = 1); menu_enviado_2 (numero_etapa = 2); pagar_3 (numero_etapa = 3)). E o código do pagamento pix, cartão, (codigo_pagamento (pix = 1; cartão = 2)), assim como o (id_pedido) do pedido recem amarzenado para enventual atualizacao do status. Garantir que apenas formulários recentemente solicitados sejam aceitos, desconsiderando respostas de formulários antigos (codigo_formulario), controle de erro como a opção voltar "0", (primeiro_erro_zero). Emcerramento de sessão, a sessão deve ser encerrada: 1 Ao final do pedido; 2 Se o total for menor ou igual a zero ou seja o usuário cancelou as escolhas, digitando zero na quantidade dos produtos por ele escolhido; 3 Após tempo limite de inatividade.|
 
 #
 
@@ -64,7 +64,7 @@ armazenando todas as informações no banco de dados para controle e histórico.
 | RNF01 | Integrar ao PostgreSQL | O chatbot deve utilizar o banco de dados para armazenar os dados. |
 | RNF02 | Integrar ao n8n        | O chatbot deve utilizar o n8n como gerenciador do fluxo. |
 | RNF03 | Utilizar o Docker     | O n8n e o PostgreSQL devem rodar em contêineres Docker. |
-|RNF04 | Manutenibilidade | O sistema deve ser estruturado de forma a permitir manutenção facilitada dos fluxos no n8n e do banco de dados PostgreSQL, utilizando contêineres Docker para isolar os serviços e simplificar atualizações.|
+|RNF04 | Manutenibilidade | O chat deve ser estruturado de forma a permitir manutenção facilitada dos fluxos no n8n e do banco de dados PostgreSQL, utilizando contêineres Docker para isolar os serviços e simplificar atualizações.|
 
 
 #
