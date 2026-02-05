@@ -55,7 +55,7 @@ armazenando todas as informações no banco de dados para controle e histórico.
 | RF10 | Enviar confirmação       | O chatbot deve enviar uma mensagem de confirmação ao dono do estabelecimento contendo os detalhes do pedido para a entrega.|
 |RF11|Fazer o Controle de Sessão e Etapas|O fluxo deve controlar a sessão do usuário, verificar se já existe uma sessão para aquele usuário e se está ativa e identificar a etapa atual do fluxo, (Sem sesão ou sessão encerrada (numero_etapa = vazio); sessao iniciada (numero_etapa = 1); menu enviado (numero_etapa = 2); pagar  (numero_etapa = 3)). Fazer o controle de erro como a opção voltar "0", (primeiro_erro_zero) e encerramento de sessão. A sessão deve ser encerrada: 1 Ao final do pedido; 2 Se o total for menor ou igual a zero ou seja o usuário cancelou as escolhas, digitando zero nas quantidades dos produtos por ele escolhido; 3 Após tempo limite de inatividade.|
 |RF12|Fazer o Controle de Formulário| o fluxo deve garantir que apenas formulários recentemente solicitados sejam aceitos, desconsiderando respostas de formulários antigos (codigo_formulario)|
-|RF13|Gerenciar Códigos de Pagamneto e Id dos Pedidos | O fluxo deve gerenciar o código de pagamento pix, cartão, (codigo_pagamento (pix = 1; cartão = 2)), assim como o id do pedido (id_pedido) recem amarzenado para atualização do status do pedido|
+|RF13|Gerenciar Códigos de Pagamneto e Id dos Pedidos | O fluxo deve gerenciar o código de pagamento, pix ou cartão (codigo_pagamento (pix = 1; cartão = 2)), assim como o id do pedido (id_pedido) recem amarzenado para atualização do status do pedido|
 
 #
 
