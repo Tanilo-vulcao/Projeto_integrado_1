@@ -48,7 +48,7 @@ armazenando todas as informações no banco de dados para controle e histórico.
 | RF03 | Solicitar Produto        | O sistema deve solicitar ao usuário que escolha apartir de um formulário seus produtos.|
 | RF04 | Solicitar Quantidade     | Via formulário o sistema solicita a quantidade dos produtos escolhidos pelo usuário.|
 | RF05 | Cálculo Automático       | O sistema deve calcular o valor do pedido de acordo com os produtos escolhidos e seus valores, e mostrar ao usuário. E se o valor for menor ou igual a zero (ou seja a quantida digitada foi zero para todos os produtos escolhidos), o pedido é automaticamente cancelado.|
-| RF06 | Solicitar Endereço e Pagamento | O sistema deve solicitar o endereço e pagamento via formulário ao usuário, que informará os dados (bairro, rua, número e referência (opcional) ) e a forma de pagamento (Pix, Cartão).|
+| RF06 | Solicitar Endereço e Pagamento | O sistema deve solicitar o endereço e pagamento via formulário ao usuário, que informará os dados (bairro, rua, número e referência (opcional) ). E a forma de pagamento (Pix, Cartão).|
 | RF07 | Confirmar Pedido/Cancelar Pedido| O sistema deve apresentar o resumo do pedido e solicitar a confirmação, que, através de mensagem, o usuário confirma ou não.|
 | RF08 | Confirmar Pagamento (simulação) | O sistema envia uma mensagem de simulação onde o usuário confirma ou não o pagamento (simulando um caso real que o usuário pode paga ou não um pedido e só assim ele realmente é confirmado ).|
 | RF09 | Registrar Pedido         | O sistema deve registrar os pedidos pagos no banco de dados e suas informações.|
