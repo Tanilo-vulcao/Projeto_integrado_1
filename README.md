@@ -1,2 +1,6 @@
 # Projeto integrado I: Chatbot para Venda e Pedidos de Açaí
-Projeto acadêmico chatbot n8n
+
+## Tecnologias ultilizadas
+### N8N - Criação e gerenciamento de fluxo
+### PostgresSQL - Gerenciador de banco de Dados 
+### Docker - Criaçao e gerenciamneto de containers
