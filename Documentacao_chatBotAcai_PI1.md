@@ -43,17 +43,17 @@ armazenando todas as informações no banco de dados para controle e histórico.
 
 | ID   | Nome                     | Descrição |
 |------|--------------------------|-----------|
-| RF01 | Responder mensagens      | O sistema deve responder às entradas do usuário via mensagem e formulários.|
-| RF02 | Exibir cardápio          | O sistema deve exibir os produtos lidos no banco de dados e apresentá-los ao usuário.|
-| RF03 | Solicitar produto        | O sistema deve solicitar a escolha do usuário via formulário, e a partir dele o usuário faz suas escolhas.|
-| RF04 | Solicitar quantidade     | O sistema solicita ao usuário via formulário, e a partir dele o usuário digita a quantidade.|
-| RF05 | Cálculo automático       | O sistema deve calcular o valor do pedido de acordo com os produtos escolhidos e seus valores, e mostrar ao usuário. E se o valor for menor ou igual a zero (ou seja a quantida digitada foi zero para todos os produtos escolhidos), o pedido é automaticamente cancelado.|
-| RF06 | Solicitar endereço e pagamento | O sistema deve solicitar o endereço e pagamento via formulário ao usuário, que informará os dados (bairro, rua, número e referência (opcional) ) e a forma de pagamento (Pix, Cartão).|
-| RF07 | Confirmar pedido/Cancelar Pedido| O sistema deve apresentar o resumo do pedido e solicitar a confirmação, que, através de mensagem, o usuário confirma ou não.|
-| RF08 | Confirmar pagamento (simulação) | O sistema envia uma mensagem de simulação onde o usuário confirma ou não o pagamento (simulando um caso real que o usuário pode paga ou não um pedido e só assim ele realmente e confirmado ).|
-| RF09 | Registrar pedido         | O sistema deve registrar os pedidos pagos no banco de dados e suas informações.|
-| RF10 | Enviar confirmação       | O sistema deve enviar uma mensagem de confirmação ao dono do estabelecimento contendo os detalhes do pedido para a entrega.|
-|RF11|Fazer o Controle de Sessão e Etapas|O sistema deve controlar a sessão do usuário, verificar se já existe uma sessão para aquele usuário e se está ativa e identificar a etapa atual do fluxo, (Sem sesão ou sessão encerrada (numero_etapa = vazio); sessao iniciada (numero_etapa = 1); menu enviado (numero_etapa = 2); pagar  (numero_etapa = 3)). Fazer o controle de erro como a opção voltar "0", (primeiro_erro_zero) e encerramento de sessão. A sessão deve ser encerrada: 1 Ao final do pedido; 2 Se o total for menor ou igual a zero ou seja o usuário cancelou as escolhas, digitando zero nas quantidades dos produtos por ele escolhido; 3 Após tempo limite de inatividade.|
+| RF01 | Responder Mensagens      | O sistema deve responder às entradas do usuário via mensagem e formulários personalizados.|
+| RF02 | Exibir Cardápio          | O sistema deve exibir os produtos lidos no banco de dados e apresentá-los ao usuário.|
+| RF03 | Solicitar Produto        | O sistema deve solicitar ao usuário que escolha apartir de um formulário seus produtos.|
+| RF04 | Solicitar Quantidade     | Via formulário o sistema solicita a quantidade dos produtos escolhidos pelo usuário.|
+| RF05 | Cálculo Automático       | O sistema deve calcular o valor do pedido de acordo com os produtos escolhidos e seus valores, e mostrar ao usuário. E se o valor for menor ou igual a zero (ou seja a quantida digitada foi zero para todos os produtos escolhidos), o pedido é automaticamente cancelado.|
+| RF06 | Solicitar Endereço e Pagamento | O sistema deve solicitar o endereço e pagamento via formulário ao usuário, que informará os dados (bairro, rua, número e referência (opcional) ) e a forma de pagamento (Pix, Cartão).|
+| RF07 | Confirmar Pedido/Cancelar Pedido| O sistema deve apresentar o resumo do pedido e solicitar a confirmação, que, através de mensagem, o usuário confirma ou não.|
+| RF08 | Confirmar Pagamento (simulação) | O sistema envia uma mensagem de simulação onde o usuário confirma ou não o pagamento (simulando um caso real que o usuário pode paga ou não um pedido e só assim ele realmente é confirmado ).|
+| RF09 | Registrar Pedido         | O sistema deve registrar os pedidos pagos no banco de dados e suas informações.|
+| RF10 | Enviar Confirmação       | O sistema deve enviar uma mensagem de confirmação ao dono do estabelecimento contendo os detalhes do pedido para a entrega.|
+|RF11|Fazer o Controle de Sessão e Etapas|O sistema deve controlar a sessão do usuário, verificar se já existe uma sessão para aquele usuário e se está ativa e identificar a etapa atual do fluxo, (Sem sesão ou sessão encerrada (numero_etapa = vazio); sessao iniciada (numero_etapa = 1); menu enviado (numero_etapa = 2); pagar  (numero_etapa = 3)). Fazer o controle de erro como a opção voltar "0", (primeiro_erro_zero). E encerramento de sessão. A sessão deve ser encerrada: 1 Ao final do pedido; 2 Se o total for menor ou igual a zero ou seja o usuário cancelou as escolhas, digitando zero nas quantidades dos produtos por ele escolhido; 3 Após tempo limite de inatividade.|
 |RF12|Fazer o Controle de Formulário| o sistema deve garantir que apenas formulários recentemente solicitados sejam aceitos, desconsiderando respostas de formulários antigos (codigo_formulario)|
 |RF13|Gerenciar Códigos de Pagamneto e Id dos Pedidos | O sistema deve gerenciar o código de pagamento, pix ou cartão (codigo_pagamento (pix = 1; cartão = 2)), assim como o id do pedido (id_pedido), recem amarzenado para atualização do status do pedido|
 
@@ -65,10 +65,13 @@ armazenando todas as informações no banco de dados para controle e histórico.
 |------|--------------------------|-----------|
 | RNF01 | Integrar ao PostgreSQL | O sistema deve utilizar o banco de dados para armazenar os dados. |
 | RNF02 | Integrar ao n8n        | O sistema deve utilizar o n8n como gerenciador do fluxo. |
-| RNF03 | Utilizar o Docker     | O n8n e o PostgreSQL devem rodar em contêineres Docker. |
+| RNF03 | Utilizar o Docker     | O n8n e o PostgreSQL devem rodar em um contêineres Docker. |
 |RNF04 | Manutenibilidade | O sistema deve ser estruturado de forma a permitir manutenção facilitada dos fluxos no n8n e do banco de dados PostgreSQL, utilizando contêineres Docker para isolar os serviços e simplificar atualizações.|
-|RF05|Escalabilidade|O sistema deve ser capaz de suportar o aumento gradual no número de usuários e pedidos simultâneos, garantindo a integridade dos dados e mantendo o desempenho adequado mesmo com o crescimento|
-
+|RNF05|Escalabilidade|O sistema deve ser capaz de suportar o aumento gradual no número de usuários e pedidos simultâneos, garantindo a integridade dos dados e mantendo o desempenho adequado mesmo com o crescimento.|
+|RNF06|Desempenho|O sistema deve responder às interações do usuário em tempo adequado, garantindo fluidez na conversa.|
+|RNF07|Disponibilidade|O sistema deve esta disponível para uso contínuo.|
+|RNF08|Segurança|O sistema deve manter os dados amarzenados e de fluxo protegidos evitando acessos não autorizados.|
+|RNF09|Usabilidade|O sistema deve possuir interação simples e intuitiva, permitindo que o usuário realize pedidos com facilidade, por meio de mensagens claras e formulários guiados.|
 
 #
 
