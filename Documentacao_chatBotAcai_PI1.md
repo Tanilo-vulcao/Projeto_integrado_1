@@ -86,7 +86,9 @@ armazenando todas as informações no banco de dados para controle e histórico.
 
 ### 6.2 Diagrama Entidade Relacionamento (DER)
 
-<img width="773" height="603" alt="DIagrama_entidade_relacionamento_AcaiBot_PI1" src="https://github.com/user-attachments/assets/be7dc0a5-4194-49a7-911f-cedbc93f6135" />
+<img width="773" height="603" alt="Diagrama_entidade_relacionamento_AcaiBot_PI1" src="https://github.com/user-attachments/assets/a158c5e4-23da-4d4b-9a85-caa30c72e126" />
+
+
 
 ## Autores
 
