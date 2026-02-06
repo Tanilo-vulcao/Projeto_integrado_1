@@ -67,6 +67,7 @@ armazenando todas as informações no banco de dados para controle e histórico.
 | RNF02 | Integrar ao n8n        | O chatbot deve utilizar o n8n como gerenciador do fluxo. |
 | RNF03 | Utilizar o Docker     | O n8n e o PostgreSQL devem rodar em contêineres Docker. |
 |RNF04 | Manutenibilidade | O chat deve ser estruturado de forma a permitir manutenção facilitada dos fluxos no n8n e do banco de dados PostgreSQL, utilizando contêineres Docker para isolar os serviços e simplificar atualizações.|
+|RF05|Escalabilidade|O fluxo deve ser capaz de suportar o aumento gradual no número de usuários e pedidos simultâneos, garantindo a integridade dos dados e mantendo o desempenho adequado mesmo com o crescimento|
 
 
 #
