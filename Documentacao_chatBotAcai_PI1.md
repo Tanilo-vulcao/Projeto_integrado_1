@@ -82,11 +82,12 @@ armazenando todas as informações no banco de dados para controle e histórico.
 
 ![DiagramaDeCasoDeUso_AcaiBot_PI1](https://github.com/user-attachments/assets/d3ee4526-c9a4-4121-85ae-e2d11ada1424)
 
+
 #
 
 ### 6.2 Diagrama Entidade Relacionamento (DER)
 
-<img width="773" height="603" alt="Diagrama_entidade_relacionamento_AcaiBot_PI1" src="https://github.com/user-attachments/assets/2f932815-5117-41af-a7c3-239b50a0c7bc" />
+
 <img width="773" height="603" alt="Diagrama_entidade_relacionamento_AcaiBot_PI1" src="https://github.com/user-attachments/assets/2f932815-5117-41af-a7c3-239b50a0c7bc" />
 
 
