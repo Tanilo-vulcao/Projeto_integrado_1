@@ -45,7 +45,7 @@ armazenando todas as informações no banco de dados para controle e histórico.
 |------|--------------------------|-----------|
 | RF01 | Responder Mensagens      | O sistema deve responder às entradas do usuário via mensagem e formulários personalizados.|
 | RF02 | Exibir Cardápio          | O sistema deve exibir os produtos lidos no banco de dados e apresentá-los ao usuário.|
-| RF03 | Solicitar Produto        | O sistema deve solicitar ao usuário que escolha apartir de um formulário seus produtos.|
+| RF03 | Solicitar Produto        | O sistema deve solicitar ao usuário que escolha a partir de um formulário seus produtos.|
 | RF04 | Solicitar Quantidade     | Via formulário o sistema solicita a quantidade dos produtos escolhidos pelo usuário.|
 | RF05 | Cálculo Automático       | O sistema deve calcular o valor do pedido de acordo com os produtos escolhidos e seus valores, e mostrar ao usuário. E se o valor for menor ou igual a zero (ou seja a quantida digitada foi zero para todos os produtos escolhidos), o pedido é automaticamente cancelado.|
 | RF06 | Solicitar Endereço e Pagamento | O sistema deve solicitar o endereço e pagamento via formulário ao usuário, que informará os dados (bairro, rua, número e referência (opcional) ). E a forma de pagamento (Pix, Cartão).|
@@ -54,8 +54,8 @@ armazenando todas as informações no banco de dados para controle e histórico.
 | RF09 | Registrar Pedido         | O sistema deve registrar os pedidos pagos no banco de dados e suas informações.|
 | RF10 | Enviar Confirmação       | O sistema deve enviar uma mensagem de confirmação ao dono do estabelecimento contendo os detalhes do pedido para a entrega.|
 |RF11|Fazer o Controle de Sessão e Etapas|O sistema deve controlar a sessão do usuário, verificar se já existe uma sessão para aquele usuário e se está ativa e identificar a etapa atual do fluxo, (Sem sessão ou sessão encerrada (numero_etapa = vazio); sessao iniciada (numero_etapa = 1); menu enviado (numero_etapa = 2); pagar  (numero_etapa = 3)). Fazer o controle de erro como a opção voltar "0", (primeiro_erro_zero). E encerramento de sessão. A sessão deve ser encerrada: 1 Ao final do pedido; 2 Se o total for menor ou igual a zero ou seja o usuário cancelou as escolhas, digitando zero nas quantidades dos produtos por ele escolhido; 3 Após tempo limite de inatividade.|
-|RF12|Fazer o Controle de Formulário| o sistema deve garantir que apenas formulários recentemente solicitados sejam aceitos, desconsiderando respostas de formulários antigos (codigo_formulario).|
-|RF13|Gerenciar Códigos de Pagamneto e Id dos Pedidos | O sistema deve gerenciar o código de pagamento, pix ou cartão (codigo_pagamento (pix = 1; cartão = 2)), assim como o id do pedido (id_pedido), recem amarzenado para atualização do status do pedido.|
+|RF12|Fazer o Controle de Formulário| O sistema deve garantir que apenas formulários recentemente solicitados sejam aceitos, desconsiderando respostas de formulários antigos (codigo_formulario).|
+|RF13|Gerenciar Códigos de Pagamento e Id dos Pedidos | O sistema deve gerenciar o código de pagamento, pix ou cartão (codigo_pagamento (pix = 1; cartão = 2)), assim como o id do pedido (id_pedido), recem amarzenado para atualização do status do pedido.|
 
 #
 
